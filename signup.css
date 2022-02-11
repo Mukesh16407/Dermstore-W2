@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Times New Roman';
+}
+
+.details{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+   
+    padding: 20px;
+}
+.signup1,.heading{
+    margin: 10px 0px 20px;
+    font-weight: 300;
+}
+.signup1{
+    margin-top: 80px;
+}
+.logoflex{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    ;
+   
+}
+.logoflex > div{
+    display: flex;
+    border: 1px solid rgb(99, 98, 98);
+    width: 47%;
+    height: 50px;
+    cursor: pointer;
+
+}
+div > h4{
+    margin-top: 15px;
+}
+.logoflex > div:hover{
+    background-color: rgb(224, 224, 224) ;
+}
+.emailaccount{
+    margin-top: 20px;
+    line-height: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+   
+}
+#user1,#email2,#email3,#pass3{
+    margin-top: -40px;
+    margin-bottom: 20px;
+    width: 90%;
+    height: 40px;
+    color: red;
+}
+.emailaccount > p{
+    font-size:16px ;
+}
+.emailaccount > input{
+    width: 90%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.code{
+    background-color: rgb(242,242,242);
+    width: 85%;
+    height: 140px;
+    padding: 20px;
+}
+.code>input{
+    width: 95%;
+    margin: auto;
+    height: 40px;
+    margin-top: 20px;
+}
+.checkbox1{
+ height: 35px;
+ width: 90%;
+ padding-top: 10px;
+}
+.checkbox1:hover{
+    border: 1px solid black;
+}
+#checkbox2{
+    width: 5%;
+    height: 30px;
+    vertical-align: middle;
+}
+.checkboxlebel{
+    position: relative;
+}

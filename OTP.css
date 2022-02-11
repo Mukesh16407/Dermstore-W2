@@ -1,0 +1,14 @@
+div{
+    margin:100px auto;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    color: brown;
+    font-weight: 700;
+}
+input,button{
+   width: 12%;
+   height: 50px;
+   font-size: 25px;
+   text-align: center;
+}

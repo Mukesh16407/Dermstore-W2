@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+.submitDetails{
+    display: flex;
+    width: 80%;
+    margin:50px auto;
+    justify-content: space-evenly;
+    
+}
+.leftCheckout{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.rewards{
+    width: 98%;
+    padding: 1%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.losi{
+    display: block;
+    width: 200px;
+   
+}
+.rightCheckout{
+    width: 35%;
+    height: 650px;
+    background-color: white;
+}
+.guest{
+    margin-top: 20px;
+    background-color: white;
+    width: 98%;
+    padding: 1%;
+    line-height: 25px;
+    display: block;
+    border-top:5px solid black ;
+    color: rgb(63, 63, 63);
+}
+.guestform > label{
+    font-size: 16px;
+}
+.guestform >input{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.marginCheck{
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.deliveryOption{
+    height: 120px;
+    background-color: white;
+    width: 98%;
+    margin-top: 30px;
+}
+.option{
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    background-color: rgb(230,240,248);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.paymentMetod{
+    width: 98%;
+    padding: 1%;
+    background-color: white;
+    margin-top: 30px;
+}
+.paymentDiv{
+    border: 3px solid gray;
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: rgb(116, 116, 116);
+    padding: 20px;
+}
+.img-card{
+  cursor: pointer;
+}
+#form_1{
+    margin-top: 30px;
+    font-size: 18px;
+}
+#form_1 > input{
+    width: 93%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.option9{
+   display:inline-block;
+}
+#select1,#select2{
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+}
+#submit15{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    cursor: pointer;
+}
+.differentMetod{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 98%;
+    box-sizing: border-box;
+    padding: 1%;
+    background-color: white; 
+    
+}
+.submitCheck{
+    width: 98%;
+    padding: 1%;
+    background-color: white;
+    margin-top: 20px;
+}
+

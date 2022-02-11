@@ -1,0 +1,55 @@
+
+#container{
+    display: flex;
+   
+    
+}
+.loginpage{
+    width: 30%;
+    background-color: white;
+    margin: 50px 150px 10px;
+    padding: 20px;
+    
+}
+.loginpage > p{
+    font-size: 18px;
+}
+.loginpage > input{
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.logoflex{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    ;
+   
+}
+.logoflex > div{
+    display: flex;
+    border: 1px solid rgb(99, 98, 98);
+    width: 47%;
+    height: 50px;
+    cursor: pointer;
+
+}
+div > h4{
+    margin-top: 15px;
+}
+.logoflex > div:hover{
+    background-color: rgb(224, 224, 224) ;
+}
+.registerpage{
+    background-color: white;
+    width: 30%;
+    margin-top: 50px;
+    height: fit-content;
+    padding: 20px;
+    margin-left: -100px;
+}
+#login1,#register1{
+    cursor: pointer;
+}

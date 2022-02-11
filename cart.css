@@ -1,0 +1,120 @@
+.cartBox{
+    width: 100%;
+    background-color: white;
+    height: fit-content;
+}
+.topBox{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    padding: 5px;
+    
+}
+.topBox > div:nth-child(1){
+   margin-top: 30px;
+   
+}
+.h2item{
+    font-weight: 300;
+}
+
+.alertbox{
+    background-color: rgb(242,249,255);
+    width: 95%;
+    height: 30px;
+    padding: 5px;
+    color: rgb(38,123,165);
+    margin: 10px auto ;
+}
+.rowbox{
+    width: 97%;
+    margin: auto;
+    
+}
+#tablebox{
+    
+    width: 100%;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.leftSide{
+    font-weight: 700;
+}
+#setfontsize{
+    text-align: center;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+.shopingDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-left: 40px;
+    
+}
+.shopingDiv1{
+    display: flex;
+    flex-direction: column;
+}
+.shopbox{
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: 300;
+}
+.shopbox:hover{
+ background-color: rgb(201, 201, 201);
+ cursor: pointer;
+}
+
+th,
+td {
+    border-bottom: solid 1px gray;
+    padding: 10px;
+    font-size: 20px;
+    width: 300px;
+
+}
+.box5{
+    width: 20px;
+    background-color: white;
+    margin-right: 10px;
+    display: inline-block;
+    color: black;
+    position: relative;
+    margin-top: 5px;
+    
+}
+#box6{
+    width: 30px;
+    background-color: white;
+    
+}
+.cartImage { 
+    height: 100px;
+}
